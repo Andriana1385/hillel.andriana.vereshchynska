@@ -47,7 +47,6 @@ public class LogicalOperators {
     boolean isStudent = true;
     boolean isExсellentStudent = false;
     boolean isHasScholarship = true;
-    System.ou
 
         /*
         Дуже важливо розуміти що можна міксувати команди між собою.
