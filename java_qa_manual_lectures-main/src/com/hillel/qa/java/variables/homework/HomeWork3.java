@@ -8,10 +8,9 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-        String emptyString = "";
+        String emptyString = "Hello world!";
 
-        System.out.println(emptyString);
-        System.out.println("Hello world!");
-        System.out.println((emptyString + 2 + 2 + "22"));
+        System.out.println(emptyString.length());
+       
     }
 }
