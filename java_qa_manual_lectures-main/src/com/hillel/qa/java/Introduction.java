@@ -43,3 +43,7 @@ public class Introduction {
         // TODO: Створіть свій клас та виведіть там "QA це круто!"
     }
 }
+/* String a = "country";
+ salary a = 100;
+ double b = 5.5
+ */
