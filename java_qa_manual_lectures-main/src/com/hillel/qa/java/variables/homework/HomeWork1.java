@@ -1,5 +1,7 @@
 package com.hillel.qa.java.variables.homework;
 
+import java.sql.SQLOutput;
+
 public class HomeWork1 {
     /**
      * <h2>Вимоги:</h2>
@@ -10,6 +12,13 @@ public class HomeWork1 {
      * </ul>
      */
     public static void main(String[] args) {
-
+        String countryName = "Ukraine";
+        int year = 2023;
+        double height = 52.3;
+        boolean isStudent = true;
+        System.out.println(countryName);
+        System.out.println(year);
+        System.out.println(height);
+        System.out.println(isStudent);
     }
 }
