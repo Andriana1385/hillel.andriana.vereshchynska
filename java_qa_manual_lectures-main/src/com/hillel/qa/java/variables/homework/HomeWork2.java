@@ -17,6 +17,5 @@ public class HomeWork2 {
         System.out.println(city);
         System.out.println(age);
         System.out.println(square);
-
     }
 }

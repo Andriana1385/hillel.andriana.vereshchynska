@@ -11,6 +11,6 @@ public class HomeWork3 {
         String emptyString = "Hello world!";
 
         System.out.println(emptyString.length());
-       
+
     }
 }
