@@ -20,9 +20,9 @@ public class HomeWork3 {
     public static void main(String[] args) {
         int a = 4;
         int b = 4;
-        String c = "0";
-        String digits =(a + b) + c;
-        System.out.println(digits);
+        int c = 0;
+        String digits = "" + c;
+        System.out.println((a + b) + digits);
 
     }
 }
