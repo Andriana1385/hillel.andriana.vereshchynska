@@ -16,8 +16,7 @@ public class HomeWork1 {
     public static void main(String[] args) {
     int currentYear = 2023;
     int friendYear = 1985;
-    System.out.println(currentYear - friendYear);
-        String text ="Моєму другу 38 років";
+    String text ="Моєму другу" +" " + (currentYear - friendYear) + " " + "років";
         System.out.println(text);
     }
 }
