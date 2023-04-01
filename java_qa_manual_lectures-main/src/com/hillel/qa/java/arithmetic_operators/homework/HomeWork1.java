@@ -14,6 +14,12 @@ public class HomeWork1 {
      * </ul>
      */
     public static void main(String[] args) {
-
+    int currentYear = 2023;
+    int friendYear = 1985;
+    System.out.println(currentYear - friendYear);
+        String text ="Моєму другу 38 років";
+        System.out.println(text);
     }
 }
+/*Арифметичні операції з типом String проводити не можна. Навіть якщо рядок повністю складається з цифр.
+/НЕ розумію як тут виконати 3 пункт ,між тектом вписати приклад */

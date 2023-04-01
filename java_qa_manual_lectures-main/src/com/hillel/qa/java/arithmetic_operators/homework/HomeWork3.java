@@ -21,9 +21,7 @@ public class HomeWork3 {
         int a = 4;
         int b = 4;
         int c = 0;
-
         String digits = "";
-
         System.out.println(digits);
     }
 }
