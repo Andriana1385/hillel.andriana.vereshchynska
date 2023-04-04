@@ -11,7 +11,10 @@ public class HomeWork2 {
      * </p>
      *
      */
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        int age = 6;
+        if (age == 6){
+            System.out.println("Час збиратися до школи!");
     }
 }
