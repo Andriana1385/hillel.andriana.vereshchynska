@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -27,14 +28,15 @@ public class HomeWork {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
     @Test
-    public void qAutoEnd2End(){
+    public void qAutoEnd2End() {
         driver.get("https://guest:welcome2qauto@qauto.forstudy.space/");
     }
-
-    @After
+        @After
     public void postCondition() {
         //Метод quit() завершує роботу драйвера, закриваючи всі пов’язані вікна.
         driver.quit();
     }
+
   }
